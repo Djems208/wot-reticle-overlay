@@ -1,0 +1,7 @@
+pywin32>=306
+pyinstaller>=6.3
+numpy>=1.26
+psutil>=5.9
+colorama>=0.4.6
+pydantic>=2.6
+pyqt6>=6.6
