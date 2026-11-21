@@ -1,0 +1,6 @@
+# Mirror of the C# build hints used by the reticle overlay's driver helper.
+# Kept for parity with src/Infrastructure/wot_driver so build scripts stay consistent.
+[build]
+target = win-x64
+runtime = pyinstaller-onedir
+console = false
