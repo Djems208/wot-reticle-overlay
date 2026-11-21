@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# WOT overlay runtime artifacts
+logs/
+dumps/
+*.log
+*.pkl
+*.bin
+captures/
+
+# IDE
+.vscode/
+.idea/
+*.swp
