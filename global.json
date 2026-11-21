@@ -1,0 +1,5 @@
+{
+  "python": "3.11",
+  "toolchain": "pyinstaller",
+  "target_platform": "win-x64"
+}
