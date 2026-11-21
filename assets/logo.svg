@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0f1417"/>
+  <g transform="translate(128,128)">
+    <!-- Outer angular reticle ring composed of 4 corner brackets -->
+    <path d="M-92,-64 L-92,-92 L-64,-92" fill="none" stroke="#c8d0d4" stroke-width="6" stroke-linecap="square"/>
+    <path d="M92,-64 L92,-92 L64,-92" fill="none" stroke="#c8d0d4" stroke-width="6" stroke-linecap="square"/>
+    <path d="M-92,64 L-92,92 L-64,92" fill="none" stroke="#c8d0d4" stroke-width="6" stroke-linecap="square"/>
+    <path d="M92,64 L92,92 L64,92" fill="none" stroke="#c8d0d4" stroke-width="6" stroke-linecap="square"/>
+
+    <!-- Tank track link ring: octagonal band with notches -->
+    <path d="M-74,-30 L-74,30 L-30,74 L30,74 L74,30 L74,-30 L30,-74 L-30,-74 Z" fill="none" stroke="#c8d0d4" stroke-width="10"/>
+    <!-- Track link notches (segmentation) -->
+    <path d="M-74,-30 L-58,-30 M-74,30 L-58,30 M74,-30 L58,-30 M74,30 L58,30 M-30,-74 L-30,-58 M30,-74 L30,-58 M-30,74 L-30,58 M30,74 L30,58" stroke="#0f1417" stroke-width="6"/>
+
+    <!-- Inner reticle crosshair lines -->
+    <path d="M-50,0 L-22,0 M22,0 L50,0 M0,-50 L0,-22 M0,22 L0,50" stroke="#c8d0d4" stroke-width="5" stroke-linecap="square"/>
+
+    <!-- Central target diamond (covert accent) -->
+    <polygon points="0,-14 14,0 0,14 -14,0" fill="#e04a2f"/>
+
+    <!-- Overlay brackets / HUD accents -->
+    <path d="M-50,-50 L-50,-38 L-38,-50 Z" fill="#f2b53a"/>
+    <path d="M50,-50 L50,-38 L38,-50 Z" fill="#f2b53a"/>
+    <path d="M-50,50 L-50,38 L-38,50 Z" fill="#f2b53a"/>
+    <path d="M50,50 L50,38 L38,50 Z" fill="#f2b53a"/>
+
+    <!-- Side tick marks for gunner scale -->
+    <path d="M-92,-12 L-82,-12 M-92,12 L-82,12 M92,-12 L82,-12 M92,12 L82,12" stroke="#e04a2f" stroke-width="4"/>
+    <path d="M-12,-92 L-12,-82 M12,-92 L12,-82 M-12,92 L-12,82 M12,92 L12,82" stroke="#e04a2f" stroke-width="4"/>
+
+    <!-- Diagonal cuts for tactical HUD feel -->
+    <path d="M-64,-64 L-56,-56 M64,-64 L56,-56 M-64,64 L-56,56 M64,64 L56,56" stroke="#f2b53a" stroke-width="3"/>
+  </g>
+</svg>
