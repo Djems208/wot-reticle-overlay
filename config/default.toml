@@ -1,0 +1,20 @@
+[overlay]
+fps = 144
+vsync = false
+hide_from_capture = true
+
+[features.aim_assist]
+enabled = true
+smoothing = 0.35
+max_turn_deg = 45.0
+
+[features.esp_radar]
+enabled = true
+draw_out_of_spot = true
+
+[features.injector_loader]
+enabled = false
+dll_path = "payloads/reticle.dll"
+
+[driver]
+attach_timeout_ms = 3000
